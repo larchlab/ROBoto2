@@ -1,0 +1,86 @@
+a {
+	color: #1e90ff;
+}
+
+/* .paper-submit-button {
+  padding: 18px !important;
+  font-size: large !important;
+} */
+
+.rob-app-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	width: 100%;
+	/* height: 100vh; */
+	/* background-color: #282c34;
+  color: white; */
+}
+
+.paper-submit-container {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.q-a-result {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.rob-info-text {
+	width: 55%;
+}
+
+/* PDFUploader CSS */
+/* FileUploader.css */
+.file-uploader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.file-upload-label {
+	display: block;
+	border: 2px dashed #000000;
+	border-radius: 12px;
+	padding: 5px 15px;
+	text-align: center;
+	transition: border-color 0.3s;
+	cursor: pointer;
+	border-color: #000000;
+}
+
+.file-upload-label:hover,
+.file-upload-label:focus {
+	border-color: #1e90ff;
+}
+
+.file-input {
+	display: none;
+}
+
+.upload-area {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.upload-instructions {
+	margin-top: 6px;
+	font-size: 14px;
+}
+
+.domain-results-page {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}

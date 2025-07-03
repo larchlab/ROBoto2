@@ -1,0 +1,9 @@
+beautifulsoup4==4.12.3
+requests==2.32.3
+itsdangerous==2.2.0
+fastapi==0.115.4
+uvicorn==0.32.0
+python-multipart==0.0.17
+lxml==5.3.0
+openai
+boto3
