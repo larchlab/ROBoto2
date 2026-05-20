@@ -7,6 +7,9 @@ Paper: https://aclanthology.org/2025.emnlp-demos.2/
 > [!NOTE]
 Due to an issue with our exporting scripts, the dataset is missing the full 276 ROBoto2 samples from our paper. It contains 203 samples. We are working on a fix. The full 245 manual assessments LLMs were evaluated on are availiable
 
+> [!NOTE]
+For assessments in the roboto2_assessment column, some signaling questions have a qa-na value. This field (question + answer not applicable) was used by annotators when the website displayed a signaling question that wasnt meant to be displayed. It can be dropped/ignored.
+
 ## Structure
 Contents: 
 - dataset/:
