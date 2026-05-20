@@ -2,10 +2,15 @@
 
 This repo contains data and code for the Roboto2 project.
 
+Paper: https://aclanthology.org/2025.emnlp-demos.2/
+
+> [!NOTE]
+Due to an issue with our exporting scripts, the dataset is missing the full 276 ROBoto2 samples from our paper. It contains 203 samples. We are working on a fix. The full 245 manual assessments LLMs were evaluated on are availiable
+
 ## Structure
 Contents: 
 - dataset/:
-    - Contains the ROBoto2 dataset
+    - Contains the ROBoto2 dataset, along with an Python notebook with example code for how to use it
 - api/:
     - Contains the code for the API
     - roboto2/:
